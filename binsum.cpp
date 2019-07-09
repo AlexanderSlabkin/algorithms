@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
 	bool *a = &A[n-1], *b = &B[n-1], *c = &C[n];
 	while(a != A-1)
 	{
-		cout<<*a<<"  "<<*b<<" "<<(*a||*b)<<" "<<(*a&&*b)<<endl;
 		if(!(*a || *b || flag))
 		{
 			*c = 0;
